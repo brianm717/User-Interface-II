@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +10,22 @@
 </head>
 <body>
     <header>
-        <nav class= "apple">
+        <div class= "apple">
             <div class="titles">
-              <h1>Brian J Mahoney</h1>  
+              <h1>Brian J Mahoney</h1>
+              <img src="Wireframe Options/meguitar-size.PNG">
             </div>
-            <div class="nav1">
-                <ul class="nav2">
-                    <li><a href="index.html"class= "home">Home</a></li> 
-                    <li><a href="about.html"class= "about">About</a></li>
-                    <li><a href="contact.html"class= "contact">Contact</a></li>
-                    <li><a href="projects.html"class= "projects">Projects</a></li>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-            </div> 
+            </nav> 
             
-        </nav>
+        </div>
     </header>
     <section class="intro">
         <div class="site">
@@ -33,28 +36,34 @@
                Own a cheap Fender acoustic but it's a cool sunburst design, also have a Shure SM58 microphone and a tambourine.
                Currently am attending Lambda School tech boot-camp and I hope it changes my life.
             </p> 
-            <img src="https://cdn-img.scalabs.com.au/2AptQb3l3me9HerfBGtTfvmXbolzHF9LhscS2yfAang/
+            <img id="Peter" src="https://cdn-img.scalabs.com.au/2AptQb3l3me9HerfBGtTfvmXbolzHF9LhscS2yfAang/
 aHR0cHM6Ly9zdy10/cmlwbGVtLXByZC5z/Y2FkaWdpdGFsLmlv/L21lZGlhLzM5MTcw/L2ZhcnRwaWwuanBn/P3ByZXNldD1NY
 Wlu/SW1hZ2U" width="720" height="325">  
         </div>
     </section>
-    <section class="projects">
-        <div class="stuff1"><img src="https://amp.thenationalnews.com/image/policy:1.850830:1555593331/ac19-APR-art-tate-van-gogh07.jpg?f=16x9&w=1200&$p$f$w=e893890" width="325" height= "425"></div>
-        <div class="stuff2"><img src="https://www.thenationalnews.com/image/policy:1.850831:1555593338/ac19-APR-art-tate-van-gogh09.jpg?f=default&q=1.0&w=1024&$p$f$q$w=8167978" width="325" height= "425"></div>
-        <div class="stuff3"><img src="https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2017/04/06/BookWorld/Images/Merlin_21225342.jpg?t=20170517" width="325" height= "425"></div>
-        <div class="stuff4"><img src="https://i.pinimg.com/originals/a8/d8/cd/a8d8cd1903ed8d0b8aa20f398772210f.jpg" width="325" height= "425"></div>
-        <div class="stuff5"><p>These are the projects I am proud of the most<button onclick = "location.href='https://apply.lambdaschool.com/apply/';"></button></p></div>                 
+    <section>
+        <nav class="projects">
+            <img src="https://amp.thenationalnews.com/image/policy:1.850830:1555593331/ac19-APR-art-tate-van-gogh07.jpg?f=16x9&w=1200&$p$f$w=e893890" width="225" height= "475">
+            <img src="https://www.thenationalnews.com/image/policy:1.850831:1555593338/ac19-APR-art-tate-van-gogh09.jpg?f=default&q=1.0&w=1024&$p$f$q$w=8167978" width="225" height= "475">
+            <img src="https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2017/04/06/BookWorld/Images/Merlin_21225342.jpg?t=20170517" width="225" height= "475">
+            <img src="Wireframe Options/0pb7h1h2fy201.png" width="225" height= "475"></div>
+            <div class="stuff5"><p>These are the projects<br> I am proud of<br> the most</p><br>
+            <button class="button1" onclick = "location.href='https://apply.lambdaschool.com/apply/';">My Work</button></div>
+        </nav>
+
     </section>
 <footer>
-    <nav class= "orange">
-        
-        <ul class="nav">
-          <li><a href="https://soundcloud.com/sydssquid">Soundcloud!</a></li> 
-          <li><button onclick = "location.href='https://apply.lambdaschool.com/apply/';">Contact Me</li>
-          <li><a href="https://www.youtube.com/channel/UCbfk0qmBY5DEx44OdxjbaKg">My YouTube-subscribe Now!</a></li>
-        </ul>
-                
-    </nav>
+    <div class= "orange">
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="https://soundcloud.com/sydssquid" target="_blank">*Soundcloud*></li>
+                    <li><button onclick = "location.href='https://apply.lambdaschool.com/apply/';"targets="_blank">Contact Me</button>
+                    <li><a href="https://www.youtube.com/channel/UCbfk0qmBY5DEx44OdxjbaKg"target="_blank">*My YouTube<br>Subscribe Now!*</a></li>
+                </ul>
+            </nav> 
+        </div>  
+    </div>
 </footer>
      
 </body>

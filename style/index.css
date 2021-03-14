@@ -1,1 +1,118 @@
-/* Add CSS styling here */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.projects{display:flex;}
+
+h1{font-family: 'Chelsea Market', cursive;
+    ;font-size: 300%;margin-top:25px;margin-bottom:25px;}
+}
+
+.nav1{text-align: center;
+      padding:20px;
+}
+
+
+.orange{
+    text-align: center;
+}
+
+.apple {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom:1%;padding-top:1%;
+}
+
+header {
+    background-color: #ccc;
+}
+
+nav {
+    height: 48px;padding-top:30px;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+}
+
+nav li a {
+    font-family: cursive;
+    color: #ff1e4b;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #dd5771;
+}
+
+.titles{border: solid; padding-bottom:37px}
+
+.site{border: solid;text-align: center; width:800px; margin: 0 auto;
+ 
+}
+
+}
+#peter {text-align: center}
+
+
+
+
+
+
+
+
