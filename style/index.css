@@ -187,4 +187,11 @@ min-width - is mobile first it's for scaling up
 max-width - desktop first - its for scaling down
 */
 /*Tablet*/
-@media
+@media(max-width:800px){
+
+}
+
+/*phone*/
+@media(max-width:500px){
+
+}
