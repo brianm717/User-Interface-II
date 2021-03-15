@@ -63,8 +63,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    height: 100%;
-    width: 10%;
+
 }
 
 nav li a {
@@ -92,7 +91,7 @@ h1{
 }
 
 .top{
-    width: 800px;
+    
     margin: 0 auto;
     text-align: center;
     padding-bottom:1%;
@@ -118,7 +117,7 @@ h1{
 .site{
     border: solid;
     text-align: center;
-    width:800px;
+    
     margin:auto;
     padding-bottom:1%;
     }
@@ -151,7 +150,6 @@ p{
 }
 
 .projects{
-    width: 800px;
     height:385px;
     margin: 0 auto;
     text-align: center;
@@ -188,7 +186,6 @@ max-width - desktop first - its for scaling down
 */
 /*Tablet*/
 @media(max-width:800px){
-
 }
 
 /*phone*/
