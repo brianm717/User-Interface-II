@@ -52,30 +52,40 @@ header {
     background-color: #ccc;
 }
 
-nav {
-    height: 48px;padding-top:30px;
-}
+.top nav {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+        }
+    nav {
+        height: 48px;
+        padding-top:30px;
+    }
+    
+    nav ul {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    nav li {
+        display: inline-block;
+      
+    
+    }
+    
+    nav li a {
+        font-family: 'Chelsea Market', cursive;
+        color: #ff1e4b;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+    nav li a:hover {
+        color: #dd5771;
+    }
 
-nav ul {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-nav li {
-    display: inline-block;
-
-}
-
-nav li a {
-    font-family: 'Chelsea Market', cursive;
-    color: #ff1e4b;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    color: #dd5771;
-}
 
 .projects{display:flex;}
 
@@ -91,7 +101,7 @@ h1{
 }
 
 .top{
-    
+    width:50%;    
     margin: 0 auto;
     text-align: center;
     padding-bottom:1%;
@@ -107,6 +117,14 @@ h1{
 .intro{
     background-color:#d7b3f5;
     max-height: 0%;
+}
+.intro{
+    display:flex;
+    justify-content:flex-end;
+}
+.intro div{
+    width:50%;
+    margin-right:25%;
 }
 
 .middle{
@@ -136,17 +154,28 @@ h1{
 
 h2{
     font-size:26px;
-    margin-top:25px;
+    margin-top:2%;
     font-weight: bold;
 }
 
 p{
     text-align: left;
     font-size:18px;
-    margin:20px}
+    width:85%;
+    margin-left:7%;
+    margin-top:2%;
+
+}
+    
 
 #myCode{
     padding-top:0;
+
+}
+
+.middle div .projects{
+    width:50%;
+    margin-right:25%;
 }
 
 .projects{
@@ -158,26 +187,53 @@ p{
     border: solid;
     }
 
-.proud{display:flex}
+.proud{display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left:10%;
+}
+
+.proud img{
+    margin-left:3%;
+    border: solid;
+
+            }
+
+.proud div{
+    margin-left:10%;
+    margin-top:7%;
+    margin-bottom:7%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.proud div button{
+    margin-top:15%;
+}    
+
 
 
 
 #special{
     text-align:center;
     font-family:'Chelsea Market', cursive;
-    margin-top:50%;
-}
+        }
 
 
 .bottom nav {
-    width: 100%;
+    width: 51%;
+    margin-left:24%;
+    margin-right:26%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 30px 1%;
     font-size: 14px;
+       }
+footer{
     background-color:#ccc;
-    }
+}
 
 /*Media Queries*/ 
 /*
