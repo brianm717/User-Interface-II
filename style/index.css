@@ -198,13 +198,18 @@ p{
 }
 
 .proud div button{
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
     margin-top:15%;
+    margin-right:0%;
 } 
 
 #special{
     text-align:center;
     font-family:'Chelsea Market', cursive;
-
+    font-size:125%;
+    margin-right: 0%;
 }
 
 
@@ -229,9 +234,29 @@ max-width - desktop first - its for scaling down
 */
 /*Tablet*/
 @media(max-width:800px){
+
+img.me { width: 300px; }
+img.john1 {width: 60px;}
+img.john2 {width: 60px;}
+img.john3 {width: 60px;}
+img.john4 {width: 60px;}
+
+#special{
+    font-size:71%;
+    margin-right:100%;
 }
 
-/*phone*/
-@media(max-width:500px){
+.proud div button{
+    margin-right:89%
+}
 
+}
+/*phone can't delete the width and margin??*/
+@media(max-width:500px){
+    .bottom nav {
+        display: flex;
+        justify-content:space-between;
+        
+        font-size: 80%;
+    }
 }
