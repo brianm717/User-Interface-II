@@ -204,6 +204,7 @@ p{
 #special{
     text-align:center;
     font-family:'Chelsea Market', cursive;
+
 }
 
 
@@ -214,7 +215,7 @@ p{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 2rem;
+    font-size: 100%;
 }
 footer{
     background-color:#ccc;
