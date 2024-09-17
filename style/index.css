@@ -52,39 +52,46 @@ header {
     background-color: #ccc;
 }
 
-nav {
-    height: 48px;padding-top:30px;
+.top nav {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+nav {
+    height: 5vh;
+    padding-top:3%;
+}
+    
 nav ul {
     margin-left: auto;
     margin-right: auto;
 }
-
+    
 nav li {
     display: inline-block;
-    height: 100%;
-    width: 10%;
 }
-
+    
 nav li a {
     font-family: 'Chelsea Market', cursive;
     color: #ff1e4b;
-    font-size: 16px;
+    font-size: 125%;
     text-decoration: none;
 }
-
+    
 nav li a:hover {
     color: #dd5771;
 }
+
 
 .projects{display:flex;}
 
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 300%;
-    margin-top:25px;
-    margin-bottom:25px;
+    margin-top:2%;
+    margin-bottom:2%
 }
 
 .nav1{text-align: center;
@@ -92,7 +99,7 @@ h1{
 }
 
 .top{
-    width: 800px;
+    width:50%;    
     margin: 0 auto;
     text-align: center;
     padding-bottom:1%;
@@ -101,85 +108,124 @@ h1{
 
 .titles{
     border: solid; 
-    padding-bottom:37px
-    
+        
 }
 
 .intro{
     background-color:#d7b3f5;
     max-height: 0%;
 }
+.intro{
+    display:flex;
+    justify-content:flex-end;
+}
+.intro div{
+    width:50%;
+    margin-right:25%;
+}
 
 .middle{
     background-color:#d7b3f5
 }
 
-
 .site{
     border: solid;
     text-align: center;
-    width:800px;
+    
     margin:auto;
     padding-bottom:1%;
-    }
-
-.site p{margin-bottom:5%;}
-
 }
 
-
+.site p{margin-bottom:5%;
+}
 
 .site{
-    font-family: 'Roboto', sans-serif;
-
-    
+    font-family: 'Roboto', sans-serif;   
 }
 
 h2{
-    font-size:26px;
-    margin-top:25px;
+    font-size:200%;
+    margin-top:2%;
     font-weight: bold;
 }
 
 p{
     text-align: left;
-    font-size:18px;
-    margin:20px}
+    font-size:125%;
+    width:85%;
+    margin-left:7%;
+    margin-top:2%;
+}
+    
 
 #myCode{
     padding-top:0;
 }
 
+.middle div .projects{
+    width:50%;
+    margin-right:25%;
+}
+
 .projects{
-    width: 800px;
-    height:385px;
+    height:40vh;
     margin: 0 auto;
     text-align: center;
     padding-bottom:1%;
     padding-top:1%;
     border: solid;
-    }
+}
 
-.proud{display:flex}
+.proud{display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left:10%;
+}
 
+.proud img{
+    margin-left:3%;
+    border: solid;
+}
 
+.proud div{
+    margin-left:10%;
+    margin-top:7%;
+    margin-bottom:7%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.proud div button{
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    margin-top:15%;
+    margin-right:0%;
+} 
 
 #special{
     text-align:center;
     font-family:'Chelsea Market', cursive;
-    margin-top:50%;
+    font-size:125%;
+    margin-right: 0%;
 }
 
 
 .bottom nav {
-    width: 100%;
+    width: 51%;
+    margin-left:24%;
+    margin-right:26%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 30px 1%;
-    font-size: 14px;
+    font-size: 100%;
+}
+footer{
     background-color:#ccc;
-    }
+    padding-bottom:2%;
+}
 
 /*Media Queries*/ 
 /*
@@ -187,4 +233,30 @@ min-width - is mobile first it's for scaling up
 max-width - desktop first - its for scaling down
 */
 /*Tablet*/
-@media
+@media(max-width:800px){
+
+img.me { width: 300px; }
+img.john1 {width: 60px;}
+img.john2 {width: 60px;}
+img.john3 {width: 60px;}
+img.john4 {width: 60px;}
+
+#special{
+    font-size:71%;
+    margin-right:100%;
+}
+
+.proud div button{
+    margin-right:89%
+}
+
+}
+/*phone can't delete the width and margin??*/
+@media(max-width:500px){
+    .bottom nav {
+        display: flex;
+        justify-content:space-between;
+        
+        font-size: 80%;
+    }
+}
